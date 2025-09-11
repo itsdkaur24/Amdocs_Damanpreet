@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 class Assignment1 \{\
+    int calculate(int a, int b) \{\
+        return a + b;\
+    \}\
+\
+    int calculate(double r) \{\
+        return (int)(Math.PI * r * r);\
+    \}\
+\
+    int calculate(int l, int w) \{\
+        return l * w;\
+    \}\
+\
+    int calculate(int side) \{\
+        return side * side;\
+    \}\
+\
+    public static void main(String[] args) \{\
+        Assignment1 obj = new Assignment1();\
+        System.out.println("Sum: " + obj.calculate(5, 10));\
+        System.out.println("Circle Area: " + obj.calculate(5.0));\
+        System.out.println("Rectangle Area: " + obj.calculate(4, 6));\
+        System.out.println("Square Area: " + obj.calculate(4));\
+    \}\
+\}\
+}
